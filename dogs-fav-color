@@ -1,9 +1,32 @@
 <DOCTYPE! HTML>
+<link href="https://fonts.googleapis.com/css?family=Gentium+Basic|IBM+Plex+Serif|Lora:700|Raleway" rel="stylesheet">
 
+<style>
+  h1 {
+
+    color: navy;
+    font-size: 32px;
+
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+  }
+  p {
+    color: black;
+    font-size: 16px;
+    font-family: 'Gentium Basic', serif;
+  }
+</style>
+
+
+
+<html>
 <head>
 <title> Rate These Dogs and We'll Guess Your Favorite Color </title>
 <h1> Rate These Dogs and We'll Guess Your Favorite Color </h1>
 </head>
 
 <body>
+<p> Bow wow wow, yippie-o yippie-yi, bow wow yippie-o yippie-yi.
+</p>
 </body>
+</html>
