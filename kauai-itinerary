@@ -1,6 +1,6 @@
 <html>
 <head>
-
+<header id="header"></header>
 <h1>The Perfect Kauai Itinerary</h1>
 
 </head>
@@ -9,7 +9,7 @@
 <body>
 
 <img src="https://c1.staticflickr.com/2/1511/24631589900_a51ef91abc_b.jpg" alt="The gorgeous Na Pali coast.">
-<p> <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiLxNmh8_HcAhUPeawKHcGpCXkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdhilung%2F24631589900&psig=AOvVaw3lHPKGWVkXjCToFqsXrrny&ust=1534520066643110"> Source </a> </p>
+<p> <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiLxNmh8_HcAhUPeawKHcGpCXkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdhilung%2F24631589900&psig=AOvVaw3lHPKGWVkXjCToFqsXrrny&ust=1534520066643110" target="_blank"> Source (Opens in a new tab) </a> </p>
 
 <h2> Directory </h2>
 <p> <a href=#ideal-time> When to Visit </a> </p>
@@ -38,6 +38,7 @@
 
 <p> Ka katia nga tuakana i te katakata, ka pupurihia ratou ki te waka, parahuithuti haere te rere o te waka, ka kii atu tetahi, “katia te rarangi”, kei te mataku haere ia, a ka kii atu tetahi ano “ki te kore ka toromi ai tatou, e Maui, katia te rarangi koa!” Engari ka mau tonu ana a Maui ki te rarangi, ka utaina te rarangi ki uta, a, ka puta mai he ika nunui rawa. Ka kii atu a Maui, “He ika i homaitia e Murirangawhenua hei koha ma tatou. Tiakina to tatou ika, ka hoki atu au ki tatahi kia whakamohio atu tenei kaupapa ki te iwi.” Ka whakaaetia e nga tuakana ki to Maui tono. Engari na te mahi kikino o nga tuakana ka timata ratou ki tapahia te ika hei koha, hei kainga mo ratou ake." I te hokinga mai a Maui me tona iwi, ka noho ohorere ratou, ka kii ratou, “Ko Maui te Rangatira mo nga mahi hii-ika.” A ka kitekite ratou i nga mahi kikino o nga tuakana, ka noho riri etahi hunga, ka noho pouri etahi hunga i nga mahi whakakohuru a nga tuakana. I nga tau maha kua pahure ake nei, ka taea tonu te kite i nga mahi kikino o nga tuakana penei i nga maunga, nga awa, koinei nga ahuatanga o Aotearoa whanaui. A, ka nohoia ki konei ko nga manu, nga hunga tangata me era mea katoa, ko te ingoa o tenei e kiia ai, ara ko Te Ika a Maui.</p>
 
+<a href=#header> Jump to Top of Page </a>
 </body>
 </main>
 
