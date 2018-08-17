@@ -6,9 +6,11 @@
   h1 {
     font-family: 'Raleway', serif;
     text-align: center;
+    color:#00b73d;
   }
   h2 {
     font-family: 'Lora', serif;
+    color: #78e2df;
   }  
   h4 {
     font-family: 'Lora', serif;
@@ -24,53 +26,66 @@
     font-size: 16px;
     font-family: 'Gentium Basic', serif;
   }
+  .p-text {
+    color: black;
+    font-size: 16px;
+    font-family: 'Gentium Basic', serif;
+  }
 </style>
 
 <html>
 <head>
 <title>The Perfect Kauai Itinerary </title>
-<header id="header"></header>
 </head>
 
 <main>
 <body>
+<header id="header"></header>
 <h1>The Perfect Kauai Itinerary</h1>
 
 <img src="https://c1.staticflickr.com/2/1511/24631589900_a51ef91abc_b.jpg" alt="The gorgeous Na Pali coast.">
 <p> <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiLxNmh8_HcAhUPeawKHcGpCXkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdhilung%2F24631589900&psig=AOvVaw3lHPKGWVkXjCToFqsXrrny&ust=1534520066643110" target="_blank"> Source Link</a> (opens in a new tab)</p>
-<p><audio controls
-  src="http://soundbible.com/mp3/Bird_in_Rain-Mike_Koenig-441535833.mp3" Your browser does not support the audio element.>
+<p><audio controls src="http://soundbible.com/mp3/Bird_in_Rain-Mike_Koenig-441535833.mp3" Your browser does not support the audio element.>
 </audio>
 Can you feel the rainforest vibes yet?</p>
 
+<section>
+<nav class="p-text">
 <h2> Directory </h2>
-<p> <a href=#about-kauai> About Kauai </a> </p>
-<p> <a href=#ideal-time> When to Visit </a> </p>
-<p> <a href=#mailing-list> Mailing List </a> </p>
+  <a href=#about-kauai> About Kauai </a> <br/>
+  <a href=#ideal-time> When to Visit </a> <br/>
+  <a href=#mailing-list> Mailing List </a>
+</nav>
+</section> <hr/>
 
+<section>
 <h2 id="about-kauai">About the Island</h2>
 
 <!-- I'm adding some placeholder text, just for kicks. -->
 
-<p>Ko te moemoea a Maui kia haere ngatahi ai ratou ko ona tuakana ki te hii ika. I te hokinga mai o ona tuakana ki tatahi, ka kii atu a Maui, “ka taea e au te haramai i to koutou na taha ki te hii ika?” Engari, ko te whakautu o ona tuakana ki a ia ano, “Kao, he rangatahi noa iho koe. Kaore he wahi mau kei te waka nei, na reira me noho tau ki tatahi ke”.
-</p>
+<p><i>Ko te moemoea a Maui kia haere ngatahi ai ratou ko ona tuakana ki te hii ika. I te hokinga mai o ona tuakana ki tatahi, ka kii atu a Maui, “ka taea e au te haramai i to koutou na taha ki te hii ika?” Engari, ko te whakautu o ona tuakana ki a ia ano, “Kao, he rangatahi noa iho koe. Kaore he wahi mau kei te waka nei, na reira me noho tau ki tatahi ke”.
+</i></p>
 
 <p> Ki ta Maui e kii ai, “Kaore au e whakahoha i a koutou, ka noho hei karetao noa iho, koinei taku whakapono ki a koutou.” Ko te whakautu o te tuakana, “Na to hiroki ka pohehe matou he kai noa iho ma nga ika”. Ka riri haere a Maui. “Maku e whai kaha, whai mana hei whakamana i ahau ano”, noku te mana hei whakaarahi i oku tuakana. Ka whakaritea e Maui he tatai hei whakamanahia i ona ake pukenga mo tenei mea te hii-ika. I tetahi po i a Maui e noho tau ana, ka timatahia e Maui ki te rarangahia he rakau hii-ika. I a ia e rarangahia e waiatatia e Maui tetahi karakia tawhito hei whakakaha i te rakau hii-ika. I te mutunga o tona mahi, i tangohia he kauae raro na tona tupuna i a Murirangawhenua i hoatu ki a ia. I te atatu o te ata, i kawea e Maui tona rakau hii-ika, a, ka huna a Maui ki te kei o te waka o tona tuakana.</p>
 
 <p> Kei te taka riri nga tuakana ki a Maui, heoi ano ka karanga atu a Maui, “konei ahau i runga ano i te karanga o Murirangawhenua, nana i kii mai, he toa mo te hii-ika e hika, na reira, i ahau e karakia ano, whakararo ou rakau hii-ika, kaore e kore ka rapuhia e koe te tini, te mano o nga ika.” I karawhiua nga tuakana a ratou rakau hii-ika ki a Tangaroa, a, ka rapuhia e ratou nga ika, ka rawe. A, ka poto haere te wa, ka whakakiia te waka e nga ika, a, ka harikoa katoa nga tuakana. Ka kii mai ratou, “kaore he hunga hii-ika tua atu i a tatou”, a, ka timatahia e Maui ki te hii-ika, ka kata mai nga tuakana ki a ia, “ka rapu noa iho koe ki tetahi rimu noa iho, ki tetahi porotawhao ranei!” </p>
 
+</section> <hr/>
+
+<section>
 <h2 id="ideal-time"> The Best Time to Visit Kauai </h2>
 
 <h4> Ideal Months to Go </h4>
-<p> <ul>
+<ul class="p-text">
   <li> September to November </li>
   <li> April to June </li>
-</ul> </p>
+</ul>
 <p>What makes these months ideal:</p>
-<p> <ol>
+<ol class="p-text">
   <li> The weather is better. Less rain! </li>
   <li> Airfare and hotel rates drop. </li>
-</ol> </p>
+</ol>
+
 <p>Ko te moemoea a Maui kia haere ngatahi ai ratou ko ona tuakana ki te hii ika. I te hokinga mai o ona tuakana ki tatahi, ka kii atu a Maui, “ka taea e au te haramai i to koutou na taha ki te hii ika?” Engari, ko te whakautu o ona tuakana ki a ia ano, “Kao, he rangatahi noa iho koe. Kaore he wahi mau kei te waka nei, na reira me noho tau ki tatahi ke”. </p>
 
 <p> Ki ta Maui e kii ai, “Kaore au e whakahoha i a koutou, ka noho hei karetao noa iho, koinei taku whakapono ki a koutou.” Ko te whakautu o te tuakana, “Na to hiroki ka pohehe matou he kai noa iho ma nga ika”. Ka riri haere a Maui. “Maku e whai kaha, whai mana hei whakamana i ahau ano”, noku te mana hei whakaarahi i oku tuakana. Ka whakaritea e Maui he tatai hei whakamanahia i ona ake pukenga mo tenei mea te hii-ika. I tetahi po i a Maui e noho tau ana, ka timatahia e Maui ki te rarangahia he rakau hii-ika. I a ia e rarangahia e waiatatia e Maui tetahi karakia tawhito hei whakakaha i te rakau hii-ika. I te mutunga o tona mahi, i tangohia he kauae raro na tona tupuna i a Murirangawhenua i hoatu ki a ia. I te atatu o te ata, i kawea e Maui tona rakau hii-ika, a, ka huna a Maui ki te kei o te waka o tona tuakana. </p>
@@ -83,10 +98,13 @@ Can you feel the rainforest vibes yet?</p>
 
 <p> Ka katia nga tuakana i te katakata, ka pupurihia ratou ki te waka, parahuithuti haere te rere o te waka, ka kii atu tetahi, “katia te rarangi”, kei te mataku haere ia, a ka kii atu tetahi ano “ki te kore ka toromi ai tatou, e Maui, katia te rarangi koa!” Engari ka mau tonu ana a Maui ki te rarangi, ka utaina te rarangi ki uta, a, ka puta mai he ika nunui rawa. Ka kii atu a Maui, “He ika i homaitia e Murirangawhenua hei koha ma tatou. Tiakina to tatou ika, ka hoki atu au ki tatahi kia whakamohio atu tenei kaupapa ki te iwi.” Ka whakaaetia e nga tuakana ki to Maui tono. Engari na te mahi kikino o nga tuakana ka timata ratou ki tapahia te ika hei koha, hei kainga mo ratou ake." I te hokinga mai a Maui me tona iwi, ka noho ohorere ratou, ka kii ratou, “Ko Maui te Rangatira mo nga mahi hii-ika.” A ka kitekite ratou i nga mahi kikino o nga tuakana, ka noho riri etahi hunga, ka noho pouri etahi hunga i nga mahi whakakohuru a nga tuakana. I nga tau maha kua pahure ake nei, ka taea tonu te kite i nga mahi kikino o nga tuakana penei i nga maunga, nga awa, koinei nga ahuatanga o Aotearoa whanaui. A, ka nohoia ki konei ko nga manu, nga hunga tangata me era mea katoa, ko te ingoa o tenei e kiia ai, ara ko Te Ika a Maui.</p>
 
+</section> <hr/>
+
+<section>
 <h2 id="mailing-list">Join our Mailing List!</h2>
 <p>Add your email address below.</p>
 
-<form action="https://en.wikipedia.org/wiki/Shrek"> 
+<form class="p-text" action="https://en.wikipedia.org/wiki/Shrek"> 
   <input type="text" required placeholder="Email address"> 
   <p> How often should we curate travel newsletters for you? </p>
   <label for="daily"> 
@@ -100,17 +118,19 @@ Can you feel the rainforest vibes yet?</p>
   </label>
   <p><label for="kauai-only"> 
     <input id="kauai-only" type="checkbox" name="email-type">I want the FULL Kauai itinerary delivered to my inbox.
-  </label></p>  
-  <p><label for="kauai-sub"> 
+  </label><br/>  
+  <label for="kauai-sub"> 
     <input id="kauai-sub" type="checkbox" name="email-type">I want to subscribe to all future events and itineraries for Kauai.
-  </label></p>
-  <p><label for="all-hi"> 
+  </label><br/>
+  <label for="all-hi"> 
     <input id="all-hi" type="checkbox" name="email-type">I want to subscribe to information and updates on all the Hawaiian islands.
   </label></p>
   <p><button type="submit">Submit</button></p>
 </form>
 
-<p> <a href=#header> Jump to Top of Page </a> </p>
+</section> <hr/>
+
+<a href=#header class="p-text"> Jump to Top of Page </a>
 </body>
 </main>
 
