@@ -79,7 +79,17 @@
 
 <form action="/submit-email"> 
   <input type="text" required placeholder="Email address"> 
-  <button type="submit">Submit</button>
+  <p> How often should we curate travel newsletters for you? </p>
+  <label for="daily"> 
+    <input id="daily" required type="radio" name="email-frequency">Daily 
+  </label>  
+  <label for="weekly"> 
+    <input id="weekly" type="radio" name="email-frequency">Weekly 
+  </label>
+  <label for="monthly"> 
+    <input id="monthly" type="radio" name="email-frequency">Monthly 
+  </label>
+    <button type="submit">Submit</button>
 </form>
 
 <p> <a href=#header> Jump to Top of Page </a> </p>
