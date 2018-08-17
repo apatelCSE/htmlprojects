@@ -89,7 +89,16 @@
   <label for="monthly"> 
     <input id="monthly" type="radio" name="email-frequency">Monthly 
   </label>
-    <button type="submit">Submit</button>
+  <p><label for="kauai-only"> 
+    <input id="kauai-only" type="checkbox" name="email-type">I want the FULL Kauai itinerary delivered to my inbox.
+  </label></p>  
+  <p><label for="kauai-sub"> 
+    <input id="kauai-sub" type="checkbox" name="email-type">I want to subscribe to all future events and itineraries for Kauai.
+  </label></p>
+  <p><label for="all-hi"> 
+    <input id="all-hi" type="checkbox" name="email-type">I want to subscribe to information and updates on all the Hawaiian islands.
+  </label></p>
+  <p><button type="submit">Submit</button></p>
 </form>
 
 <p> <a href=#header> Jump to Top of Page </a> </p>
