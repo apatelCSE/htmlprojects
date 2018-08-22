@@ -11,13 +11,13 @@
   h2 {
     font-family: 'Lora', serif;
     color: #78e2df;
-  }  
+  }
   h4 {
     font-family: 'Lora', serif;
-  }  
+  }
   ul {
     font-family: 'Gentium Basic', serif;
-  }  
+  }
   ol {
     font-family: 'Gentium Basic', serif;
   }
@@ -30,6 +30,16 @@
     color: black;
     font-size: 16px;
     font-family: 'Gentium Basic', serif;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .thin-green-border {
+    border-width: 5px;
+    border-color: #00b73d;
+    border-style: solid;
+  }
+  .turq-background {
+    background-color: #d8ffe5;
   }
 </style>
 
@@ -43,84 +53,86 @@
 <header id="header"></header>
 <h1>The Perfect Kauai Itinerary</h1>
 
-<img src="https://c1.staticflickr.com/2/1511/24631589900_a51ef91abc_b.jpg" alt="The gorgeous Na Pali coast."> <br/>
+<div class="p-text">
+<img src="https://c1.staticflickr.com/2/1511/24631589900_a51ef91abc_b.jpg" class="thin-green-border" alt="The gorgeous Na Pali coast."> <br/>
 <a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiLxNmh8_HcAhUPeawKHcGpCXkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdhilung%2F24631589900&psig=AOvVaw3lHPKGWVkXjCToFqsXrrny&ust=1534520066643110" target="_blank"> Source Link</a> <br/>
 <p><audio controls autoplay loop>
   <source src="http://soundbible.com/mp3/Bird_in_Rain-Mike_Koenig-441535833.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio></p>
 <p>Can you feel the rainforest vibes yet?</p>
+</div>
 
 <section>
 <nav class="p-text">
-<h2> Directory </h2>
-  <a href=#about-kauai> About Kauai </a> <br/>
-  <a href=#ideal-time> When to Visit </a> <br/>
-  <a href=#mailing-list> Mailing List </a>
+<h2>Directory</h2>
+  <a href=#about-kauai>About Kauai</a> <br/>
+  <a href=#ideal-time>When to Visit</a> <br/>
+  <a href=#mailing-list>Mailing List</a>
 </nav>
 </section> <hr/>
 
-<section>
+<div class="turq-background"><section class="p-text">
 <h2 id="about-kauai">About the Island</h2>
 
-<p><i>Ko te moemoea a Maui kia haere ngatahi ai ratou ko ona tuakana ki te hii ika. I te hokinga mai o ona tuakana ki tatahi, ka kii atu a Maui, “ka taea e au te haramai i to koutou na taha ki te hii ika?” Engari, ko te whakautu o ona tuakana ki a ia ano, “Kao, he rangatahi noa iho koe. Kaore he wahi mau kei te waka nei, na reira me noho tau ki tatahi ke”.
+<p><i>This is a problem that's brought together churches and synagogues and mosques and people of all faiths as part of a grassroots movement. I've seen it in Illinois, when we provided health care to more children and moved more families from welfare to work. And finally, just as America can never tolerate violence by extremists, we must never alter our principles. That is why we welcome efforts like Saudi Arabian King Abdullah's Interfaith dialogue and Turkey's leadership in the Alliance of Civilizations.
 </i></p>
 
-<p> Ki ta Maui e kii ai, “Kaore au e whakahoha i a koutou, ka noho hei karetao noa iho, koinei taku whakapono ki a koutou.” Ko te whakautu o te tuakana, “Na to hiroki ka pohehe matou he kai noa iho ma nga ika”. Ka riri haere a Maui. “Maku e whai kaha, whai mana hei whakamana i ahau ano”, noku te mana hei whakaarahi i oku tuakana. Ka whakaritea e Maui he tatai hei whakamanahia i ona ake pukenga mo tenei mea te hii-ika. I tetahi po i a Maui e noho tau ana, ka timatahia e Maui ki te rarangahia he rakau hii-ika. I a ia e rarangahia e waiatatia e Maui tetahi karakia tawhito hei whakakaha i te rakau hii-ika. I te mutunga o tona mahi, i tangohia he kauae raro na tona tupuna i a Murirangawhenua i hoatu ki a ia. I te atatu o te ata, i kawea e Maui tona rakau hii-ika, a, ka huna a Maui ki te kei o te waka o tona tuakana.</p>
+<p>It is not up in heaven. Board of Education, and the inferior education they provided, then and now, helps explain the pervasive achievement gap between today's black and white students. To Chairman Dean and my great friend Dick Durbin; and to all my fellow citizens of this great nation; Our government should work for us, not against us. Make no mistake: we do not want to keep our troops in Afghanistan. </p>
 
-<p> Kei te taka riri nga tuakana ki a Maui, heoi ano ka karanga atu a Maui, “konei ahau i runga ano i te karanga o Murirangawhenua, nana i kii mai, he toa mo te hii-ika e hika, na reira, i ahau e karakia ano, whakararo ou rakau hii-ika, kaore e kore ka rapuhia e koe te tini, te mano o nga ika.” I karawhiua nga tuakana a ratou rakau hii-ika ki a Tangaroa, a, ka rapuhia e ratou nga ika, ka rawe. A, ka poto haere te wa, ka whakakiia te waka e nga ika, a, ka harikoa katoa nga tuakana. Ka kii mai ratou, “kaore he hunga hii-ika tua atu i a tatou”, a, ka timatahia e Maui ki te hii-ika, ka kata mai nga tuakana ki a ia, “ka rapu noa iho koe ki tetahi rimu noa iho, ki tetahi porotawhao ranei!” </p>
-</section> <hr/>
+<p>Let me be clear. Because one of the things that we have to change in our politics is the idea that people cannot disagree without challenging each other's character and patriotism. They have affiliates in many countries and are trying to expand their reach. And fault lines must be closed among Muslims as well, as the divisions between Sunni and Shia have led to tragic violence, particularly in Iraq. Do we participate in a politics of cynicism or do we participate in a politics of hope? But we cannot walk away this time. This too is part of America's promise - the promise of a democracy where we can find the strength and grace to bridge divides and unite in common effort.</p>
+</section></div> <hr/>
 
-<section>
+<section class="p-text">
 <h2 id="ideal-time"> The Best Time to Visit Kauai </h2>
 
 <h4> Ideal Months to Go </h4>
-<ul class="p-text">
+<ul>
   <li> September to November </li>
   <li> April to June </li>
 </ul>
 <p>What makes these months ideal:</p>
-<ol class="p-text">
+<ol>
   <li> The weather is better. Less rain! </li>
   <li> Airfare and hotel rates drop. </li>
 </ol>
 
-<p>Ko te moemoea a Maui kia haere ngatahi ai ratou ko ona tuakana ki te hii ika. I te hokinga mai o ona tuakana ki tatahi, ka kii atu a Maui, “ka taea e au te haramai i to koutou na taha ki te hii ika?” Engari, ko te whakautu o ona tuakana ki a ia ano, “Kao, he rangatahi noa iho koe. Kaore he wahi mau kei te waka nei, na reira me noho tau ki tatahi ke”. </p>
+<p>I don't know what Bible they're reading, but it doesn't jibe with my version. I've seen it in Illinois, when we provided health care to more children and moved more families from welfare to work. And it is no coincidence that countries where women are well-educated are far more likely to be prosperous. </p>
 
-<p> Ki ta Maui e kii ai, “Kaore au e whakahoha i a koutou, ka noho hei karetao noa iho, koinei taku whakapono ki a koutou.” Ko te whakautu o te tuakana, “Na to hiroki ka pohehe matou he kai noa iho ma nga ika”. Ka riri haere a Maui. “Maku e whai kaha, whai mana hei whakamana i ahau ano”, noku te mana hei whakaarahi i oku tuakana. Ka whakaritea e Maui he tatai hei whakamanahia i ona ake pukenga mo tenei mea te hii-ika. I tetahi po i a Maui e noho tau ana, ka timatahia e Maui ki te rarangahia he rakau hii-ika. I a ia e rarangahia e waiatatia e Maui tetahi karakia tawhito hei whakakaha i te rakau hii-ika. I te mutunga o tona mahi, i tangohia he kauae raro na tona tupuna i a Murirangawhenua i hoatu ki a ia. I te atatu o te ata, i kawea e Maui tona rakau hii-ika, a, ka huna a Maui ki te kei o te waka o tona tuakana. </p>
+<p> I have brothers, sisters, nieces, nephews, uncles and cousins, of every race and every hue, scattered across three continents, and for as long as I live, I will never forget that in no other country on Earth is my story even possible. Because that was the cheapest way to eat. That's the change we need right now. The question, now, is not what Iran is against, but rather what future it wants to build. And I am hopeful that all countries in the region can share in this goal. But I do have an unyielding belief that all people yearn for certain things: the ability to speak your mind and have a say in how you are governed; confidence in the rule of law and the equal administration of justice; government that is transparent and doesn't steal from the people; the freedom to live as you choose.</p>
 
-<p> Ka tohea ki uta te waka e nga tuakana, engari ahua rereke te ahua o te waka. Ka kii mai, “Kei te ahua taumaha te waka nei, kei te hoe tahi tatou, kao ranei?” Ka kii atu tetahi, “na to kaha kai i nga kumara te take” Ka kii atu tetahi ano, “Katia to korua mahi whakatoi”. I to ratou taenga atu ki te wahi taunga ika, ka puta mai a Maui, aue ko te ohorere o ona tuakana! “He aha.” “He aha tau?” “To mahi hianga e Maui.” “Ko koe te take e kore ai matou e whiwhi ika ana, ko koe ke” </p>
+<p> Imagine Lincoln's Second Inaugural without its reference to "the judgments of the Lord." Or King's "I Have a Dream" speech without its reference to "all of God's children." Or President Kennedy's Inaugural without the words, "here on Earth, God's work must truly be our own." At each of these junctures, by summoning a higher truth and embracing a universal faith, our leaders inspired ordinary people to achieve extraordinary things. And that it's not enough to just believe this - we have to do our part to make it a reality. The UCC is still listening. It is that promise that has always set this country apart - that through hard work and sacrifice, each of us can pursue our individual dreams but still come together as one American family, to ensure that the next generation can pursue their dreams as well. You don't protect Israel and deter Iran just by talking tough in Washington. "And as we walk, we must make the pledge that we shall always march ahead. We cannot turn back."</p>
 
-<p> Kei te taka riri nga tuakana ki a Maui, heoi ano ka karanga atu a Maui, “konei ahau i runga ano i te karanga o Murirangawhenua, nana i kii mai, he toa mo te hii-ika e hika, na reira, i ahau e karakia ano, whakararo ou rakau hii-ika, kaore e kore ka rapuhia e koe te tini, te mano o nga ika.” I karawhiua nga tuakana a ratou rakau hii-ika ki a Tangaroa, a, ka rapuhia e ratou nga ika, ka rawe. A, ka poto haere te wa, ka whakakiia te waka e nga ika, a, ka harikoa katoa nga tuakana. Ka kii mai ratou, “kaore he hunga hii-ika tua atu i a tatou”, a, ka timatahia e Maui ki te hii-ika, ka kata mai nga tuakana ki a ia, “ka rapu noa iho koe ki tetahi rimu noa iho, ki tetahi porotawhao ranei!” </p>
+<p> And they, too, had big dreams for their daughter. Now let there be no doubt. But what the people heard instead - people of every creed and color, from every walk of life - is that in America, our destiny is inextricably linked. And that is why we are providing more than $2.8 billion to help Afghans develop their economy and deliver services that people depend upon. Likewise, many Israelis recognize the need for a Palestinian state. </p>
 
-<p> Ka kata nga tuakana! Engari kaore a Maui i whakarata i a ratou mahi whakatoi ki a ia, a, ka karakia a Maui. Ka kii atu ia ki ona tuakana, “purua a koutou toto koa ki taku rakau hii-ika?” Ka kata haere nga tuakana i te tono nei i a Maui, a, ka riri haere a Maui, ka patua ia ki tona ihu, ka rere iho ai te toto, ka taupokihia ki te kauae raro. Ka a Maui ki te kei o te waka, purua te rakau hii-ika ki a Tangaroa, ka tau te raro, a ka tangohia te rakau hii-ika e tetahi mea! </p>
+<p> That's why pastors, friends of mine like Rick Warren and T.D. Jakes and organizations like World Vision and Catholic Charities are wielding their enormous influence to confront poverty, HIV/AIDS, and the genocide in Darfur. Moreover, freedom in America is indivisible from the freedom to practice one's religion. Those are mutual interests. </p>
 
-<p> Ka katia nga tuakana i te katakata, ka pupurihia ratou ki te waka, parahuithuti haere te rere o te waka, ka kii atu tetahi, “katia te rarangi”, kei te mataku haere ia, a ka kii atu tetahi ano “ki te kore ka toromi ai tatou, e Maui, katia te rarangi koa!” Engari ka mau tonu ana a Maui ki te rarangi, ka utaina te rarangi ki uta, a, ka puta mai he ika nunui rawa. Ka kii atu a Maui, “He ika i homaitia e Murirangawhenua hei koha ma tatou. Tiakina to tatou ika, ka hoki atu au ki tatahi kia whakamohio atu tenei kaupapa ki te iwi.” Ka whakaaetia e nga tuakana ki to Maui tono. Engari na te mahi kikino o nga tuakana ka timata ratou ki tapahia te ika hei koha, hei kainga mo ratou ake." I te hokinga mai a Maui me tona iwi, ka noho ohorere ratou, ka kii ratou, “Ko Maui te Rangatira mo nga mahi hii-ika.” A ka kitekite ratou i nga mahi kikino o nga tuakana, ka noho riri etahi hunga, ka noho pouri etahi hunga i nga mahi whakakohuru a nga tuakana. I nga tau maha kua pahure ake nei, ka taea tonu te kite i nga mahi kikino o nga tuakana penei i nga maunga, nga awa, koinei nga ahuatanga o Aotearoa whanaui. A, ka nohoia ki konei ko nga manu, nga hunga tangata me era mea katoa, ko te ingoa o tenei e kiia ai, ara ko Te Ika a Maui.</p>
+<p> Now, some of you may have heard me talk about the Joshua generation. And for the sake of our economy, our security, and the future of our planet, I will set a clear goal as President: in ten years, we will finally end our dependence on oil from the Middle East. Let us keep that promise - that American promise - and in the words of Scripture hold firmly, without wavering, to the hope that we confess. The situation in Afghanistan demonstrates America's goals, and our need to work together.</p>
 </section> <hr/>
 
-<section>
+<section class="p-text">
 <h2 id="mailing-list">Join our Mailing List!</h2>
-<p>Add your email address below.</p>
 
-<form class="p-text" action="https://en.wikipedia.org/wiki/Shrek"> 
-  <input type="text" required placeholder="Email address"> 
+<form action="https://en.wikipedia.org/wiki/Shrek">
+  <p>Add your email address below.</p>
+  <input type="text" required placeholder="Email address">
   <p> How often should we curate travel newsletters for you? </p>
-  <label for="daily"> 
-    <input id="daily" required type="radio" name="email-frequency" checked>Daily 
-  </label>  
-  <label for="weekly"> 
-    <input id="weekly" type="radio" name="email-frequency">Weekly 
+  <label for="daily">
+    <input id="daily" required type="radio" name="email-frequency" checked>Daily
   </label>
-  <label for="monthly"> 
-    <input id="monthly" type="radio" name="email-frequency">Monthly 
+  <label for="weekly">
+    <input id="weekly" type="radio" name="email-frequency">Weekly
   </label>
-  <p><label for="kauai-only"> 
+  <label for="monthly">
+    <input id="monthly" type="radio" name="email-frequency">Monthly
+  </label>
+  <p><label for="kauai-only">
     <input id="kauai-only" type="checkbox" name="email-type">I want the FULL Kauai itinerary delivered to my inbox.
-  </label><br/>  
-  <label for="kauai-sub"> 
+  </label><br/>
+  <label for="kauai-sub">
     <input id="kauai-sub" type="checkbox" name="email-type">I want to subscribe to all future events and itineraries for Kauai.
   </label><br/>
-  <label for="all-hi"> 
+  <label for="all-hi">
     <input id="all-hi" type="checkbox" name="email-type">I want to subscribe to information and updates on all the Hawaiian islands.
   </label></p>
   <p><button type="submit">Submit</button></p>
