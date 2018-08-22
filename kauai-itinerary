@@ -40,6 +40,8 @@
   }
   .turq-background {
     background-color: #d8ffe5;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 </style>
 
