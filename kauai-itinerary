@@ -65,6 +65,14 @@
     bottom: 5px;
     right: 10px;
   }
+  #sidebar {
+    background-color: #fff3c4; !-- tan --!
+    color: black;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 200px;
+  }
 
 </style>
 
@@ -172,6 +180,18 @@
 <div id="chicken-holder">
   <img id="chicken" src="https://vignette.wikia.nocookie.net/zt2downloadlibrary/images/7/77/FeralKauaiChickenM_Whalebite.png/revision/latest/scale-to-width-down/225?cb=20170207144305">
 </div>
+
+<div id="sidebar">
+<h2 style="text-align:center"> Other Islands <h2>
+<section class="p-text">
+<a href="https://en.wikipedia.org/wiki/Hawaii_(island)" target="_blank">Hawai'i</a> <br>
+<a href="https://en.wikipedia.org/wiki/Maui" target="_blank">Maui</a> <br>
+<a href="https://en.wikipedia.org/wiki/Oahu" target="_blank">Oahu</a> <br>
+<a href="https://en.wikipedia.org/wiki/Molokai" target="_blank">Molokai</a> <br>
+<a href="https://en.wikipedia.org/wiki/Lanai" target="_blank">Lanai</a> <br>
+<a href="https://en.wikipedia.org/wiki/Niihau" target="_blank">Ni'ihau</a> <br>
+<a href="https://en.wikipedia.org/wiki/Kahoolawe" target="_blank">Kaho'olawe</a> <br>
+</section></div>
 
 <div>
 <a href=#header class="p-text"> Jump to Top of Page </a>
