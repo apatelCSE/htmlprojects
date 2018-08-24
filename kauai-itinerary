@@ -6,11 +6,11 @@
   h1 {
     font-family: 'Raleway', serif;
     text-align: center;
-    color:#00b73d;
+    color:#00b73d; !-- tropical green--!
   }
   h2 {
     font-family: 'Lora', serif;
-    color: #78e2df;
+    color: #78e2df; !-- turquoise --!
   }
   h4 {
     font-family: 'Lora', serif;
@@ -43,9 +43,16 @@
     border-color: #00b73d;
     border-style: solid;
   }
-  .turq-background {
-    background-color: #d8ffe5;
+  a {
+    color: black;
+  }
+  a:hover {
+    color: #00b73d;
+  }
+  #turq-background {
+    background-color: #d8ffe5; !-- light turquoise --!
     padding: 20px 0px 20px 0px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19);
   }
 </style>
 
@@ -78,7 +85,7 @@
 </nav>
 </section> <hr/>
 
-<div class="turq-background"><section class="p-text">
+<div id="turq-background"><section class="p-text">
 <h2 id="about-kauai">About the Island</h2>
 
 <p><i>This is a problem that's brought together churches and synagogues and mosques and people of all faiths as part of a grassroots movement. I've seen it in Illinois, when we provided health care to more children and moved more families from welfare to work. And finally, just as America can never tolerate violence by extremists, we must never alter our principles. That is why we welcome efforts like Saudi Arabian King Abdullah's Interfaith dialogue and Turkey's leadership in the Alliance of Civilizations.
@@ -87,7 +94,7 @@
 <p>It is not up in heaven. Board of Education, and the inferior education they provided, then and now, helps explain the pervasive achievement gap between today's black and white students. To Chairman Dean and my great friend Dick Durbin; and to all my fellow citizens of this great nation; Our government should work for us, not against us. Make no mistake: we do not want to keep our troops in Afghanistan. </p>
 
 <p>Let me be clear. Because one of the things that we have to change in our politics is the idea that people cannot disagree without challenging each other's character and patriotism. They have affiliates in many countries and are trying to expand their reach. And fault lines must be closed among Muslims as well, as the divisions between Sunni and Shia have led to tragic violence, particularly in Iraq. Do we participate in a politics of cynicism or do we participate in a politics of hope? But we cannot walk away this time. This too is part of America's promise - the promise of a democracy where we can find the strength and grace to bridge divides and unite in common effort.</p>
-</section></div> <hr/>
+</section></div> <p></p> <hr/>
 
 <section class="p-text">
 <h2 id="ideal-time"> The Best Time to Visit Kauai </h2>
