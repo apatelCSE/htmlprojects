@@ -3,14 +3,21 @@
 <link href="https://fonts.googleapis.com/css?family=Gentium+Basic|IBM+Plex+Serif|Lora:700|Raleway" rel="stylesheet">
 
 <style>
+  header {
+    background-color: hsl(111, 60%, 50%); /*tropical green*/
+  }
+  footer {
+    background-color: hsl(111, 60%, 50%);
+    text-indent: 50px;
+  }
   h1 {
     font-family: 'Raleway', serif;
     text-align: center;
-    color:#00b73d; !-- tropical green--!
+    color: white;
   }
   h2 {
     font-family: 'Lora', serif;
-    color: #78e2df; !-- turquoise --!
+    color: hsl(111, 70%, 40%); /*turquoise*/
   }
   h4 {
     font-family: 'Lora', serif;
@@ -26,12 +33,6 @@
     font-size: 16px;
     font-family: 'Gentium Basic', serif;
   }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
   .p-text {
     color: black;
     font-size: 16px;
@@ -39,21 +40,34 @@
     text-align: justify;
     margin: 0px 50px 0px 50px;
   }
-  .napali {
+  #napali {
     border-width: 5px;
-    border-color: #00b73d;
+    border-color: hsl(111, 70%, 30%);
+    border-radius: 20px;
     border-style: solid;
     position: relative;
     top: 10px;
+    display: block;
+    margin: auto;
+  }
+  #napali:hover {
+    transform: scale(1.02);
   }
   a {
     color: black; !-- makes all links black and green when hovered --!
   }
   a:hover {
-    color: #00b73d;
+    animation-name: link-hover;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+  }
+  @keyframes link-hover {
+    100% {
+      color: hsl(111, 70%, 50%);
+    }
   }
   #turq-background {
-    background-color: #d8ffe5; !-- light turquoise --!
+    background-color: hsl(111, 70%, 90%); !-- light turquoise --!
     padding: 20px 0px 20px 0px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19);
   }
@@ -65,13 +79,18 @@
     bottom: 5px;
     right: 10px;
   }
+  #content {
+    float: left;
+    width: 80%
+  }
   #sidebar {
     background-color: #fff3c4; !-- tan --!
     color: black;
-    position: absolute;
+    /* position: absolute;
     right: 0px;
-    top: 0px;
-    width: 200px;
+    top: 0px; */
+    width: 20%;
+    float: right;
   }
 
 </style>
@@ -84,14 +103,14 @@
 
 <main>
 <body>
+<div id="content"> <!--left side of the page-->
 
-<header id="header"></header>
-<div>
+<header id="header">
   <h1>The Perfect Kauai Itinerary</h1>
-</div>
+</header> <!--allows you to jump to top of page-->
 
 <div class="p-text">
-<a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiLxNmh8_HcAhUPeawKHcGpCXkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdhilung%2F24631589900&psig=AOvVaw3lHPKGWVkXjCToFqsXrrny&ust=1534520066643110" target="_blank"> <img src="https://c1.staticflickr.com/2/1511/24631589900_a51ef91abc_b.jpg" class="center napali" alt="The gorgeous Na Pali coast."> </a> <br/>
+<a href="https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiLxNmh8_HcAhUPeawKHcGpCXkQjRx6BAgBEAU&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fdhilung%2F24631589900&psig=AOvVaw3lHPKGWVkXjCToFqsXrrny&ust=1534520066643110" target="_blank"> <img src="https://c1.staticflickr.com/2/1511/24631589900_a51ef91abc_b.jpg" id="napali" alt="The gorgeous Na Pali coast."> </a> <br/>
 <p> <audio controls autoplay loop>
   <source src="http://soundbible.com/mp3/Bird_in_Rain-Mike_Koenig-441535833.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
@@ -181,7 +200,15 @@
   <img id="chicken" src="https://vignette.wikia.nocookie.net/zt2downloadlibrary/images/7/77/FeralKauaiChickenM_Whalebite.png/revision/latest/scale-to-width-down/225?cb=20170207144305">
 </div>
 
-<div id="sidebar">
+<div>
+<a href=#header class="p-text"> Jump to Top of Page </a>
+</div>
+
+<footer><p style="color:white">&copy; 2018 Hawaii Travel Itineraries</p></footer>
+
+</div> <!--closes main content -->
+
+<div id="sidebar"> <!--right side of page-->
 <h2 style="text-align:center"> Other Islands <h2>
 <section class="p-text">
 <a href="https://en.wikipedia.org/wiki/Hawaii_(island)" target="_blank">Hawai'i</a> <br>
@@ -191,11 +218,7 @@
 <a href="https://en.wikipedia.org/wiki/Lanai" target="_blank">Lanai</a> <br>
 <a href="https://en.wikipedia.org/wiki/Niihau" target="_blank">Ni'ihau</a> <br>
 <a href="https://en.wikipedia.org/wiki/Kahoolawe" target="_blank">Kaho'olawe</a> <br>
-</section></div>
-
-<div>
-<a href=#header class="p-text"> Jump to Top of Page </a>
-</div>
+</section></div> <!--end right side of page-->
 
 </body>
 </main>
