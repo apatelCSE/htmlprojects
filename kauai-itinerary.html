@@ -171,28 +171,34 @@
 <h2>Join our Mailing List!</h2>
 
 <form action="https://en.wikipedia.org/wiki/Shrek">
-  <p>Add your email address below.</p>
-  <input type="text" required placeholder="Email address">
-  <p> How often should we curate travel newsletters for you? </p>
-  <label for="daily">
-    <input id="daily" required type="radio" name="email-frequency" checked>Daily
-  </label>
-  <label for="weekly">
-    <input id="weekly" type="radio" name="email-frequency">Weekly
-  </label>
-  <label for="monthly">
-    <input id="monthly" type="radio" name="email-frequency">Monthly
-  </label>
-  <p><label for="kauai-only">
-    <input id="kauai-only" type="checkbox" name="email-type">I want the FULL Kauai itinerary delivered to my inbox.
-  </label><br/>
-  <label for="kauai-sub">
-    <input id="kauai-sub" type="checkbox" name="email-type">I want to subscribe to all future events and itineraries for Kauai.
-  </label><br/>
-  <label for="all-hi">
-    <input id="all-hi" type="checkbox" name="email-type">I want to subscribe to information and updates on all the Hawaiian islands.
-  </label></p>
-  <p><button type="submit">Submit</button></p>
+  <fieldset>
+    <legend>Set up your subscription below.</legend>
+    <p><label>Email:
+      <input type="text" required placeholder="bob123@bobson.com">
+    </label></p>
+    <p><label for="dateofbirth">Date of Birth:</label>
+      <input type="date" id="dateofbirth" placeholder="mm/dd/yyyy" required>
+    </p>
+    <p> How often should we curate travel newsletters for you? </p>
+    <label for="daily">
+      <input id="daily" required type="radio" name="email-frequency" checked>Daily
+    </label>
+    <label for="weekly">
+      <input id="weekly" type="radio" name="email-frequency">Weekly
+    </label>
+    <label for="monthly">
+      <input id="monthly" type="radio" name="email-frequency">Monthly
+    </label>
+    <p><label for="kauai-only">
+      <input id="kauai-only" type="checkbox" name="email-type">I want the FULL Kauai itinerary delivered to my inbox.
+    </label><br/>
+    <label for="kauai-sub">
+      <input id="kauai-sub" type="checkbox" name="email-type">I want to subscribe to all future events and itineraries for Kauai.
+    </label><br/>
+    <label for="all-hi">
+      <input id="all-hi" type="checkbox" name="email-type">I want to subscribe to information and updates on all the Hawaiian islands.
+    </label></p>
+    <p><button type="submit">Submit</button></p>
 </form>
 </section> </div> <hr/>
 
