@@ -19,13 +19,7 @@
     font-family: 'Source Serif Pro', serif;
     color: #237515; /*more compatible version of tropical green, works against the light turq*/
   }
-  h3 {
-    font-family: 'Source Serif Pro', serif;
-  }
-  ul {
-    font-family: 'Source Serif Pro', serif;
-  }
-  ol {
+  h3, ul, ol {
     font-family: 'Source Serif Pro', serif;
   }
   p {
@@ -49,12 +43,13 @@
     top: 10px;
     display: block;
     margin: auto;
+    height: auto;
   }
   #napali:hover {
     transform: scale(1.02);
   }
   a {
-    color: black; !-- makes all links black and green when hovered --!
+    color: black; /*makes all links black and green when hovered*/
   }
   a:hover {
     animation-name: link-hover;
@@ -67,7 +62,7 @@
     }
   }
   #turq-background {
-    background-color: hsl(111, 70%, 90%); !-- light turquoise --!
+    background-color: hsl(111, 70%, 90%); /*light turquoise*/
     padding: 20px 0px 20px 0px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19);
   }
@@ -84,7 +79,7 @@
     width: 79%
   }
   #sidebar {
-    background-color: #FFFBEB; !-- lighter tan --!
+    background-color: #FFFBEB; /*lighter tan*/
     border-color: black;
     border-width: 1px;
     border-style: solid;
@@ -209,7 +204,7 @@
 </form>
 </section> </div> <hr/>
 
-<div id="chicken-holder">
+<div id="chicken-holder"> 
   <img id="chicken" src="https://vignette.wikia.nocookie.net/zt2downloadlibrary/images/7/77/FeralKauaiChickenM_Whalebite.png/revision/latest/scale-to-width-down/225?cb=20170207144305">
 </div>
 
@@ -235,5 +230,13 @@
 
 </body>
 </main>
+
+
+<!-- some notes on viewports in case i ever need it:
+vw: 10vw would be 10% of the viewport's width.
+vh: 3vh would be 3% of the viewport's height.
+vmin: 70vmin would be 70% of the viewport's smaller dimension (height vs. width).
+vmax: 100vmax would be 100% of the viewport's bigger dimension (height vs. width).
+to use it: say height: vh; or width: vw; etc -->
 
 </html>
