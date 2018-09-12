@@ -1,14 +1,17 @@
 <style>
 #survey-content {
-  font-family: serif;
+  font-family: sans-serif;
   font-size: 16px;
 }
 #background-color {
-  background-color: #e2c4ff;
+  background-color: #e2c4ff; /*dusty rose color*/
 }
 #survey-content {
   background-color: white;
-  margin: 10px 30px 30px 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px;
   text-align: justify;
 }
@@ -21,6 +24,13 @@ input:valid {
 table {
   line-height: 1.5;
 }
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset {
+  display: block;
+}
 form legend {
   padding: 0 5px;
   font-weight: bold;
@@ -32,6 +42,10 @@ form fieldset li {
 }
 td {
   vertical-align: top;
+  padding: 15px;
+}
+body {
+  text-align: center;
 }
 </style>
 
@@ -43,13 +57,13 @@ td {
 
 <body>
 <div id="background-color">
-  <h1 id="title" style="text-align:center; padding-top:10px">Join Stitchers Today!</h1> <!--user story #1-->
+  <h1 id="title" style="text-align:center; padding-top:10px; font-family: sans-serif;">Join Stitchers Today!</h1> <!--user story #1-->
 <div id="survey-content">
   <p id="description">Please enter your personal information below to join Stitchers and receive email communications from the Stitchers team. Our first meeting is <time datetime="2018-09-05">September 5<sup>th</sup>, 2018</time>. Thank you!</p> <!--user story #2-->
   <form id="survey-form" action="https://en.wikipedia.org/wiki/Shrek"> <!--user story #3-->
     <fieldset>
     <legend>Enter your information below:</legend>
-    <table style="width:100%">
+    <table class="center">
       <tr>
         <td>
           <label for="name" id="name-label">Name: </label></td>
@@ -70,7 +84,7 @@ td {
       </tr>
       <tr>
         <td>
-          <label for="experience-yrs" id="dropdown">How much knitting/crocheting <br>experience do you have? </label><br><br></td><!--user story #12-->
+          <label for="experience-yrs" id="dropdown">How much knitting/crocheting <br>experience do you have? </label></td><!--user story #12-->
         <td>
           <select>
             <option value="less1mo">Less than 1 month</option>
@@ -87,12 +101,12 @@ td {
           <label for="loomknityes" style="display:none">Yes</label>
           <input type="radio" name="loom-knitting" required checked>Yes</input><br> <!--user story #13-->
           <label for="loomknitno" style="display:none">No</label>
-          <input type="radio" name="loom-knitting">No</input><br><br>
+          <input type="radio" name="loom-knitting">No</input>
         </td>
       </tr>
       <tr>
         <td>
-          <p>Please select the needlecrafts you <br>feel proficient at/would be <br>willing to teach others.</p></td>
+          <p>Please select the needlecrafts you feel <br>proficient at/would be willing to teach <br>others.</p></td>
         <td>
           <label for="knit" style="display:none">Knitting</label>
           <input type="checkbox" name="needlecraft" value="knitting">Knitting</input><br> <!--user story #14-->
